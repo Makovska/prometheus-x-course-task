@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>X-course task - Sign-In</title>
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="header__title">
+				<a class="header__shopname" href="#">X-course task</a>
+				<span class="header__surname">/ Makovska Liudmyla</span>
+			</div>
+			<a class="header__cart" href="#">
+				<img class="header__cart-image" src="../img/cart.svg" alt="Cart">
+				<span class="header__product-counter">36</span>
+			</a>
+			<div class="header__authorization">
+				<button class="header__btn button" type="button">Sign-Out</button>
+				<div class="header__user">
+					<img class="header__avatar" src="../img/avatar.png" alt="Avatar">
+					<p class="header__username">Username</p>
+				</div>
+			</div>
+			<button class="header__burger open" type="button"></button>
+		</header>
+
+		<main class="main">
+
+			<section class="main__container signin">
+
+				<div class="signin__avatar">
+					<img class="signin__image" src="../img/avatar.png" alt="Avatar">
+				</div>
+
+				<form class="signin__form" action="#" method="post">
+					<label class="signin__label" for="username">Username</label>
+					<input class="signin__input" type="text" name="username" id="username" placeholder="type Username">
+					<!-- disabled -->
+					<button class="signin__btn button" type="button">Sign-In</button>
+
+				</form>
+
+			</section>
+
+		</main>
+
+		<footer class="footer">
+
+			<p class="footer__text">Виконано в
+				<a class="footer__link" href="https://prometheus.org.ua/" target="_blank">
+					Prometheus
+				</a>
+				<sup>©</sup>
+				<time>2024</time>
+			</p>
+
+		</footer>
+
+	</div>
+</body>
+
+</html>
